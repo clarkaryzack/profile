@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section class="inner">
+      <form>
+        <fieldset>
+          <legend>Sign Up</legend>
+          <div class="radio">
+            <div class="admin">
+              <input type="radio" name="chooseone" value="admin">
+              <label for="chooseone">admin</label>
+            </div>
+            <div class="personal">
+              <input type="radio" name="chooseone" value="personal" checked>
+              <label for="chooseone">personal</label>
+            </div>
+            <div class="guest">
+              <input type="radio" name="chooseone" value="guest">
+              <label for="chooseone">guest</label>
+            </div>
+          </div>
+        </fieldset>
+        <br>
+        <fieldset>
+          <div class="nemail">
+            <div class="row1">
+              <div class="text">
+                <label for="name">name</label>
+                <br>
+                <input type="text" id="name">
+              </div>
+              <div class="text">
+                <label for="email">email address</label>
+                <br>
+                <input type="email" id="email">
+              </div>
+            </div>
+            <div class="row2">
+              <div class="text">
+                <label for="password">password</label>
+                <br>
+                <input type="text" id="password">
+              </div>
+              <div class="text">
+                <label for="confirm">confirm password</label>
+                <br>
+                <input type="text" id="confirm">
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <br>
+        <fieldset>
+          <div class="last">
+            <div class="upload">
+              <label for="photo">profile picture</label>
+              <br>
+              <input type="file" id="photo">
+            </div>
+            <div class="submit">
+              <button type="submit">sign up</button>
+            </div>
+          </div>
+        </fieldset>
+    </section>
+  </div>
+</body>
+</html>
